@@ -9,6 +9,7 @@ while True:
         break        
     PIN = random.randint(100, 999)
     print("Vas PIN je:", PIN)
+    str(PIN)
     confirmation = input("Da li ste sigurni? (Da/Ne): ")
     if confirmation.lower() == "da":
         print("Kreiranje naloga je uspelo.")
@@ -19,8 +20,8 @@ while True:
     else:
         print("Nevazeci unos, probajte ponovo!")
 
+print("Dobrodosli, Prijavite se na svoj nalog.")
 while True:
-    print("Dobrodosli, prijavite se na vas postojeci nalog.")
     userlogin = input("Unesite vase ime: ")
     if userlogin != user:
         print("Netacno ime, probajte ponovo!")
@@ -33,3 +34,6 @@ while True:
     if pinlogin != PIN:
         print("Netacan PIN kod, probajte ponovo.")
         break
+    if pinlogin == PIN:
+        print("Uspesno smo se prijavili na nalog.")
+        
