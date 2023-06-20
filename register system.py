@@ -19,21 +19,3 @@ while True:
         break
     else:
         print("Nevazeci unos, probajte ponovo!")
-
-print("Dobrodosli, Prijavite se na svoj nalog.")
-while True:
-    userlogin = input("Unesite vase ime: ")
-    if userlogin != user:
-        print("Netacno ime, probajte ponovo!")
-        break
-    passwordlogin = input("Unesite vasu sifru: ")
-    if passwordlogin != password:
-        print("Netacna sifra, probajte ponovo!")
-        break
-    pinlogin = input("Unesite vas PIN kod: ")
-    if pinlogin != PIN:
-        print("Netacan PIN kod, probajte ponovo.")
-        break
-    if pinlogin == PIN:
-        print("Uspesno smo se prijavili na nalog.")
-        
