@@ -16,5 +16,5 @@ if operacija == "*":
     print("Rezultat je:",  prvibroj * drugibroj)
 if operacija == "/":
     print("Rezultat je:",  prvibroj / drugibroj)
-
-
+else:
+    print("Nevazeca operacija")
