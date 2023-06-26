@@ -1,3 +1,4 @@
+print("KALKULATOR")
 prvibroj = int(input("Unesite prvi broj: "))
 drugibroj = int(input("Unesite drugi broj: "))
 print("""Vazece operacije jesu:
