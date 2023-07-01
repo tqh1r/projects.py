@@ -21,7 +21,7 @@ if guess1 != european_country:
 else:
     print("Uspesno si pogodio, bravo!")
 print("Prvo slovo je, ", european_country[0], "trece slovo je", european_country[2])
-guess2 = input("Ajde pogodi opet, imas jos 1 pokusaj posle ovog. ")
+guess2 = input("Ajde pogodi opet, imas jos 1 pokusaj posle ovog: ")
 if guess2 != european_country:
     print("netacno, ajde dat cu ti jos 1 slovo.")
 if guess2 == european_country:
